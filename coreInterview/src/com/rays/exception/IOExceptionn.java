@@ -11,7 +11,7 @@ public class IOExceptionn {
 			int data;
 			while ((data = reader.read()) != -1) {
 				System.out.println(data);
-			}
+			} 
 		} catch (FileNotFoundException e) {
 			System.out.println(e);
 		} catch (IOException e) {

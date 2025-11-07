@@ -6,10 +6,12 @@ public class TryWithFinally {
 
 		String s = "amit";
 		try {
-			s.charAt(10);
-			System.exit(0);
-		}finally {
-			System.out.println("skfj");
+		
+			System.out.println(s.charAt(10));
+//			System.exit(0);
+
+		} finally {
+			System.out.println("invalid");
 		}
 
 	}

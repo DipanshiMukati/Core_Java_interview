@@ -3,9 +3,9 @@ package com.rays.exception;
 
 public class StringIndexOutOfBound {
 	public static void main(String[] args) {
-		String s = "Lokesh";
+		String s = "dipanshi";
 		try {
-				System.out.println(s.charAt(8));
+				System.out.println(s.charAt(9));
 			
 		} catch (StringIndexOutOfBoundsException e) {
 			System.out.println(e);
